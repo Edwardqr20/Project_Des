@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagenes/icono.jpeg" type="image/x-icon">
+    <title>Luis Alfonso</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div class ="header">
+        <h1>Luis Alfonso</h1>
+    </div>
+    
+    <img src="../imagenes/luis2.png" alt="Foto "class="img">
+    <p><h2><b>Canción más escuchada</b></h2></p>
+    <h3><p>Mi palabra contra la de ellos.</p></h3>
+    <audio class="audio" id="miAudio">
+        <source src="../audios/Mi Palabra Contra La De Ellos (En Vivo) - Luis Alf(MP3_160K).mp3" type="audio/mpeg">
+    </audio>
+    <div class = "boton">
+    <button onclick="reproducirAudio()">▶ Reproducir</button>
+    <button onclick="pausarAudio()">⏸ Pausar</button>
+
+        <script>
+        function reproducirAudio() {
+        document.getElementById("miAudio").play();
+     }
+
+     function pausarAudio() {
+        document.getElementById("miAudio").pause();
+     }
+        </script>
+</div>
+    <h2><p><b>Biografía y Primeros Años</b></p></h2>
+<h3><p>Luis Alfonso nació en Pitalito, Huila, Colombia. Desde pequeño mostró una gran pasión por la música, influenciado por los ritmos tradicionales colombianos y el despecho. Su talento lo llevó a destacarse en el género de la música popular.</p></h3>
+
+<h2><p><b>Carrera Musical y Éxitos</b></p></h2>
+<h3><p>Luis Alfonso comenzó su carrera interpretando música popular con un estilo caracterizado por letras profundas y una voz potente. Ha logrado consolidarse como una de las voces más representativas del género en Colombia.  
+Algunas de sus canciones más conocidas son:
+    <ul>
+        <li>Quédate Conmigo</li>
+        <li>Maldita Traga</li>
+        <li>Perdóname</li>
+        <li>Por qué volviste</li>
+        <li>La que se fue</li>
+    </ul>
+</p></h3>
+
+<h2><p><b>Legado y Reconocimiento</b></p></h2>
+<h3><p>Gracias a su talento y carisma, Luis Alfonso ha sabido mantenerse vigente en la música popular, fusionando tradición y modernidad. Su capacidad para llegar al público ha hecho que se gane un lugar importante en el género.</p></h3>
+<div class = "nav"> 
+    <a href="../index.html">Volver a la página principal</a>
+</div>
+</body>
+</html>

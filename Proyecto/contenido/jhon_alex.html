@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagenes/icono.jpeg" type="image/x-icon">
+    <title>Jhon Alex Castaño</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div class ="header">
+        <h1>Jhon Alex Castaño</h1>
+    </div>
+    <img src="../imagenes/jhon2.png" alt="Foto "class="img">
+    <p><h2><b>Canción más escuchada</b></h2></p>
+    <h3><p>Amigos con derechos</p></h3>
+    <audio class="audio" id="miAudio">
+        <source src="../audios/Amigos con Derechos - Jhon Alex Castaño (Vídeo Oficial)(MP3_160K).mp3" type="audio/mpeg">
+    </audio>
+    <div class = "boton">
+    <button onclick="reproducirAudio()">▶ Reproducir</button>
+    <button onclick="pausarAudio()">⏸ Pausar</button>
+
+        <script>
+        function reproducirAudio() {
+        document.getElementById("miAudio").play();
+     }
+
+     function pausarAudio() {
+        document.getElementById("miAudio").pause();
+     }
+        </script>
+</div>
+    <h2><p><b>Biografía y Primeros Años</b></p></h2>
+    <h3><p>Jhon Alex Castaño nació el 13 de abril de 1981 en Pereira, Risaralda, Colombia. Desde muy joven mostró interés por la música y, a pesar de las dificultades económicas que enfrentó en su infancia, logró abrirse camino en la industria con esfuerzo y dedicación.</p></h3>
+    
+    <h2><p><b>Carrera Musical y Éxitos</b></p></h2>
+    <h3><p>Conocido como "El Rey del Chupe", Jhon Alex Castaño ha sido uno de los artistas que han revolucionado la música popular colombiana con un sonido fresco y moderno. Ha alcanzado gran reconocimiento con éxitos como:
+        <ul>
+            <li>De bar en bar</li>
+            <li>Dos razones</li>
+            <li>Sin sentimiento</li>
+            <li>Amanecí contento</li>
+            <li>Ya no quiero verte</li>
+        </ul>
+    </p></h3>
+    
+    <h2><p><b>Legado y Reconocimiento</b></p></h2>
+    <h3><p>Jhon Alex Castaño ha sido reconocido por su autenticidad y carisma en el escenario. Con una carrera consolidada, ha logrado importantes premios y ha llevado su música a diferentes países, representando el nuevo sonido de la música popular colombiana.</p></h3>
+    <div class = "nav"> 
+        <a href="../index.html">Volver a la página principal</a>
+    </div></body>
+</html>
